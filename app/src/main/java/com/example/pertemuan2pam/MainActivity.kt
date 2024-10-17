@@ -43,3 +43,13 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun BasicColumn( modifier: Modifier = Modifier) {
+    Column (horizontalAlignment =  Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
+
+    ) {
+
+
+
+    }
+}
