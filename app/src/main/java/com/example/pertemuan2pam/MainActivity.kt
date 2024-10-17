@@ -31,7 +31,14 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        setContent {
+            Pertemuan2PAMTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                   BasicColumn(modifier = Modifier.padding(innerPadding))
 
+                }
+            }
+        }
     }
 }
 
