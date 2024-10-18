@@ -61,6 +61,8 @@ fun BasicColumn( modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.padding(5.dp))
         Image(
             painter = painterResource(id = R.drawable.umy),
+            contentDescription = "",
+            modifier = Modifier.clip(CircleShape)
         )
     }
 }
