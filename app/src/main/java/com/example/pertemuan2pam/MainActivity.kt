@@ -79,5 +79,13 @@ fun BasicColumn( modifier: Modifier = Modifier) {
             fontSize = 30.sp,
             fontStyle = FontStyle.Italic,
         )
+
+        Spacer(modifier = Modifier.padding(1.dp))
+        Image(
+            painter = painterResource(id = R.drawable.saya),
+            contentDescription = "",
+            modifier = Modifier.clip(CircleShape)
+        )
+
     }
 }
