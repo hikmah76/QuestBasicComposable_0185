@@ -51,6 +51,8 @@ fun BasicColumn( modifier: Modifier = Modifier) {
             .padding(top = 50.dp)
 
     ) {
+        Text("Login", fontSize = 50.sp, fontWeight = FontWeight.Bold )
+        Spacer(modifier = Modifier.padding(1.dp))
 
 
 
