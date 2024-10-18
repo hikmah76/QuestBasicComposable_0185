@@ -70,7 +70,8 @@ fun BasicColumn( modifier: Modifier = Modifier) {
         Text(
             text = "Nur Hikmah",
             fontSize = 25.sp,
-
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue
         )
     }
 }
