@@ -64,5 +64,8 @@ fun BasicColumn( modifier: Modifier = Modifier) {
             contentDescription = "",
             modifier = Modifier.clip(CircleShape)
         )
+        Text("Nama", fontSize = 35.sp, fontWeight = FontWeight.Bold )
+        Spacer(modifier = Modifier.padding(10.dp)
+        )
     }
 }
