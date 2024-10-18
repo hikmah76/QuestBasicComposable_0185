@@ -73,5 +73,11 @@ fun BasicColumn( modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.Blue
         )
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text(
+            text = "20220140185",
+            fontSize = 30.sp,
+            fontStyle = FontStyle.Italic,
+        )
     }
 }
