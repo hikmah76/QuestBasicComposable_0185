@@ -89,3 +89,12 @@ fun BasicColumn( modifier: Modifier = Modifier) {
 
     }
 }
+
+
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
